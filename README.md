@@ -52,7 +52,7 @@
 ### Установка зависимостей
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/school-admin-panel.git
+git clone https://github.com/BelartLLC/school-admin-panel.git
 cd school-admin-panel
 
 # Установка зависимостей
