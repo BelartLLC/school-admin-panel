@@ -39,6 +39,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import OrdersSection from "./components/OrdersSection"
 import CoursesSection from "./components/CoursesSection"
 import LessonsSection from "./components/LessonsSection"
+import TestsSection from "./components/TestsSection"
+import AccountsSection from "./components/AccountsSection"
+import VideoStorageSection from "./components/VideoStorageSection"
+import HomeworkSection from "./components/HomeworkSection"
+import QuestionsSection from "./components/QuestionsSection"
+import CertificatesSection from "./components/CertificatesSection"
+import SettingsSection from "./components/SettingsSection"
 
 
 
@@ -132,6 +139,20 @@ function App() {
         return <CoursesSection />
       case 'lessons':
         return <LessonsSection />
+      case 'tests':
+        return <TestsSection />
+      case 'accounts':
+        return <AccountsSection />
+      case 'video':
+        return <VideoStorageSection />
+      case 'homework':
+        return <HomeworkSection />
+      case 'questions':
+        return <QuestionsSection />
+      case 'certificates':
+        return <CertificatesSection />
+      case 'settings':
+        return <SettingsSection />
       default:
         return (
           <div className="space-y-6">
